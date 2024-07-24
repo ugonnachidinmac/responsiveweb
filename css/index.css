@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    max-width: 1920px;
+    min-height: 3017px;
+    background: linear-gradient(0deg, #ffffff, #ffffff),
+      radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(26, 21, 21, 0) 0%,
+        rgba(1, 1, 1, 0.16) 100%
+      );
+  }
+  
+  .container1 {
+    max-width: 1200px;
+    min-height: 373px;
+    margin: auto;
+    margin-top: 25px;
+  }
+  
+  .rowInlineblock {
+    display: inline-block;
+    max-width: 487px;
+    min-height: 182px;
+    margin-right: 45px;
+  }
+  .bkimgContainer {
+    max-width: 277px;
+    min-height: 65px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.82px;
+    letter-spacing: 0.1854em;
+  }
+  
+  .designbkimg {
+    background-image: url(../image/desimgbak.png);
+    background-repeat: no-repeat;
+  }
+  
+  .devbkimg {
+    background-image: url(../image/maintenancebackimg.png);
+    background-repeat: no-repeat;
+  }
+  
+  .mainbkimg {
+    background-image: url(../image/devbckimg.png);
+    background-repeat: no-repeat;
+  }
+  .row2Content {
+    max-width: 487px;
+    min-height: 182px;
+    margin: auto;
+  }
+  
+  .rowInlineblock p {
+    max-width: 500px;
+    min-height: 104px;
+    padding-left: 55px;
+  }
+  
+  .rowInlineblock h3 {
+    padding-top: 25px;
+    padding-left: 55px;
+  }
+  
+  .row2Content p {
+    max-width: 500px;
+    min-height: 104px;
+    padding-left: 55px;
+  }
+  .row2Content h3 {
+    padding-top: 25px;
+    padding-left: 55px;
+  }
+  
+  .separator {
+    max-width: 170px;
+    height: 12px;
+    margin: auto;
+    margin-bottom: 95px;
+  }
+  
+  .skills {
+    max-width: 400px;
+    height: 107px;
+    margin: auto;
+    border: 8px solid #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38.37px;
+    letter-spacing: 0.3554em;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 95px;
+  }
+  
+  .usingNow {
+    max-width: 1004px;
+    min-height: 1413px;
+    margin: auto;
+    padding-left: 35px;
+  }
+  
+  .usingNow h2 {
+    max-width: 261px;
+    min-height: 74px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    letter-spacing: 0.1854em;
+    text-align: left;
+    margin-bottom: 95px;
+  }
+  
+  .iconContent {
+    max-width: 25%;
+    min-height: 120px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 85px;
+  }
+  
+  .html5 {
+    max-width: 84.21px;
+    min-height: 100px;
+  }
+  .css3 {
+    max-width: 84.14px;
+    min-height: 100px;
+  }
+  .sass {
+    max-width: 126.62px;
+    min-height: 99.93px;
+  }
+  .javascriptBoostGit {
+    max-width: 96.24px;
+    min-height: 100px;
+  }
+  .react {
+    max-width: 93.96px;
+    min-height: 87.41px;
+  }
+  .figma {
+    max-width: 69.49px;
+    min-height: 100px;
+  }
+  
+  .iconContent p {
+    max-width: 240px;
+    min-height: 52px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    letter-spacing: 0.1354em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 65px;
+  }
+  
+  
+  
