@@ -92,7 +92,7 @@
     margin: auto;
     border: 8px solid #000000;
     font-family: "Montserrat", sans-serif;
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: 700;
     line-height: 38.37px;
     letter-spacing: 0.3554em;
@@ -101,23 +101,27 @@
     margin-bottom: 95px;
   }
   
+  .skills h2 {
+    max-width: 404px;
+    min-height: 74px;
+  }
+  
   .usingNow {
     max-width: 1004px;
     min-height: 1413px;
     margin: auto;
-    padding-left: 35px;
   }
   
   .usingNow h2 {
-    max-width: 261px;
+    max-width: 350px;
     min-height: 74px;
     font-family: "Montserrat", sans-serif;
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: 700;
     line-height: 36.57px;
     letter-spacing: 0.1854em;
-    text-align: left;
     margin-bottom: 95px;
+    margin-left: 45px;
   }
   
   .iconContent {
@@ -125,7 +129,8 @@
     min-height: 120px;
     display: inline-block;
     text-align: center;
-    margin-right: 85px;
+    width: 200px;
+    margin-right: 30px; 
   }
   
   .html5 {
@@ -166,5 +171,18 @@
     margin-bottom: 65px;
   }
   
+  @media screen and (max-width: 400px) {
+    .iconContent {
+      display: block;
+      margin: auto;
+    }
   
+    .rowInlineblock {
+        display: block;
+    }
+
+    .usingNow h2 {
+        font-size: 28px;
+    }
+  }
   
